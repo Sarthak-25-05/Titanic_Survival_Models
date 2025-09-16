@@ -1,6 +1,7 @@
 🚢 Titanic_Survival_Models
+This is my first data science project where I analyze the Titanic dataset and build models to predict passenger survival.  
+The goal is to apply machine learning techniques and compare model performance.
 
-This project is based on the Titanic dataset, one of the most popular beginner-friendly datasets in machine learning. The goal is to predict whether a passenger survived the Titanic disaster based on features such as age, sex, class, and other available information.
 
 📌Project Overview:
 Preprocessed the Titanic dataset (handled missing values, categorical encoding, scaling).
@@ -12,9 +13,9 @@ Compared their performance using accuracy score.
 
 ⚙️ Models & Results
 Model	                         Accuracy (approx)
-Logistic Regression	               75-85 %
-K-Nearest Neighbors	               70-75 %
-Random Forest                      80-85 %
+Logistic Regression	               ~79 %
+K-Nearest Neighbors	               ~75 %
+Random Forest                      ~82 %
 
 🛠️ Tech Stack
 
@@ -22,6 +23,11 @@ Python
 Pandas, NumPy–        Data handling
 Matplotlib, Seaborn-  Visualization
 Scikit-learn–         Model building & evaluation
+
+ 📌 Next Steps
+- Try advanced models (XGBoost, SVM)
+- Hyperparameter tuning
+- Feature engineering
 
 🙌 Acknowledgments
 Kaggle Titanic Dataset
